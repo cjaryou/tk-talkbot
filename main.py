@@ -6,7 +6,7 @@ import threading  # API çağrısını ayrı bir thread'de yapmak için
 from queue import Queue  # Mesajları sıraya almak için
 
 # Hugging Face API endpoint ve token
-HUGGINGFACE_API_TOKEN = "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"  # Hugging Face API token'ı
+HUGGINGFACE_API_TOKEN = "HUGGINGFACEAPI"  # Hugging Face API token'ı
 API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-3B"  # Hugging Face API URL'si
 
 # Çökmelere karşı mesajları sıraya koyma
